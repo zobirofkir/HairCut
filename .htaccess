@@ -1,0 +1,19 @@
+Options -Indexes
+
+ErrorDocument 403 /HairCut/HairCut/error.html
+ErrorDocument 400 /HairCut/HairCut/error.html
+ErrorDocument 401 /HairCut/HairCut/error.html
+ErrorDocument 403 /HairCut/HairCut/error.html
+ErrorDocument 404 /HairCut/HairCut/error.html
+ErrorDocument 405 /HairCut/HairCut/error.html
+ErrorDocument 408 /HairCut/HairCut/error.html
+ErrorDocument 414 /HairCut/HairCut/error.html
+ErrorDocument 500 /HairCut/HairCut/error.html
+ErrorDocument 502 /HairCut/HairCut/error.html
+ErrorDocument 504 /HairCut/HairCut/error.html
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
